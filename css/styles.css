@@ -1,0 +1,154 @@
+body {
+  font-weight: 300;
+  text-align: center;
+}
+
+/* Element */
+p {
+  color: #8f8f8f;
+}
+
+/* Heading */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat";
+}
+
+/* Heading-Section */
+.big-heading {
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.section-heading {
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Container */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Sections */
+.colored-section {
+  background-color: #ff4c68;
+  color: #ffffff;
+}
+.white-section {
+  background-color: #ffffff;
+}
+
+/* Download Buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title */
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+#title-img {
+  /* margin-left: 18%; */
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* Navigation Bar */
+.navbar-brand {
+  font-family: "ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.navbar {
+  padding: 0 0 4.5rem;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 200;
+}
+
+/* Features */
+#features {
+  position: relative;
+  z-index: 1;
+}
+.feature-title {
+  font-weight: 600;
+}
+.feature-box {
+  padding: 0 3%;
+}
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonials */
+#testimonials {
+  background-color: #ef8172;
+}
+.testimonial-text {
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+}
+
+/* Press */
+#press {
+  padding-bottom: 3%;
+  background-color: #ef8172;
+}
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing */
+#pricing {
+  padding: 100px;
+}
+.price-text {
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.pricing-col {
+  padding: 3% 2%;
+}
+
+/* Call To Action */
+
+/* Footer */
+.social-icon {
+  margin: 20px 10px;
+}
+
+/* Media Query */
+@media (max-width: 1028px) {
+  #title-img {
+    position: static;
+    transform: rotate(0);
+  }
+  #title {
+    text-align: center;
+  }
+}
